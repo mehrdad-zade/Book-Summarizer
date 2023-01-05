@@ -1,11 +1,11 @@
 {
   "manifest_version": 3,
   "name": "Book Summarizer",
-  "version": "1.0",
+  "version": "1.1",
   "description": "An extension that that takes a book name and its auther's, and returns a detailed summary.",
-  "permissions": ["activeTab", "storage"],
+  "permissions": ["storage"],
   "options_page": "options.html",
-  "browser_action": {
+  "action": {
     "default_popup": "popup.html",
     "default_icon": "icon/contract-512.png"
   }
