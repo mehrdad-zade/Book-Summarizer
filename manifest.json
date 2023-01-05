@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "ChatGPT Extension",
+  "name": "Book Summarizer",
   "version": "1.0",
-  "description": "An extension that that takes a book name and its auther's, and returns a summary.",
+  "description": "An extension that that takes a book name and its auther's, and returns a detailed summary.",
   "permissions": ["activeTab", "storage"],
   "options_page": "options.html",
   "browser_action": {

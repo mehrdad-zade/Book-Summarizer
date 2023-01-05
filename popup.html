@@ -4,19 +4,20 @@
     <title>ChatGPT Extension</title>
   <style>
     /* Styling for the search box */
-    #form {
+    #search-form {
       display: flex;
       align-items: center;
       min-width: 37em;
     }
 
-    #input {
+    #search-input {
       flex: 1;
       padding: 0.5em;
       border: none;
       border-radius: 0.25em;
       min-width: 35em;
       font-family: sans-serif;
+      margin-right: 5px;
     }
 
     #search-button {
@@ -30,7 +31,7 @@
     }
 
     /* Styling for the results container */
-    #response {
+    #search-response {
       padding: 0.5em;
       border: solid 1px lightgray;
       border-radius: 0.25em;
@@ -44,12 +45,12 @@
   </style>
   </head>
   <body>
-    <form id="form">
-      <input type="text" id="input" placeholder="ex. The Lord of the Rings by J.R.R. Tolkien"></input>
+    <form id="search-form">
+      <input type="text" id="search-input" placeholder="ex. The Lord of the Rings by J.R.R. Tolkien"></input>
       <button type="submit" id="search-button">Summarize</button>
     </form>
-    <div id="response"></div>
-    <script src="content.js"></script>
+    <div id="search-response"></div>
   </body>
+  <script src="content.js"></script>
 </html>
 
